@@ -28,15 +28,17 @@ def main():
 def separateText(text):
 
     # iterate through the sting adding all words to the array
+    text = " " + text
     words = []
     lastSpace = 0
     for i in range(len(text)):
-        if (text[i] == " "):
+        if (text[i] == " " or i+1 == len(text)):
             word = text[lastSpace+1 : i+1]
             words.append(word)
-            lastSpace = i
+            lastSpace = i            
 
     # return the array of words
+    print(words)
     return words
 
 # run main function
