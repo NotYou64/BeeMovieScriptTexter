@@ -2,7 +2,6 @@
 # Script to send large text files (such as The Bee Movie) over text word by word
 # 4/28/20
 
-
 # imports
 from pynput.keyboard import Key, Controller
 import time
