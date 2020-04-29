@@ -6,7 +6,6 @@ impossible.
 Yellow,
 black.
 
-
 # imports
 from pynput.keyboard import Key, Controller
 import time
