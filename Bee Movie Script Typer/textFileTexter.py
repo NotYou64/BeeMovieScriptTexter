@@ -1,6 +1,10 @@
 # Cole Delong
 # Script to send large text files (such as The Bee Movie) over text word by word
 # 4/28/20
+is
+impossible.
+Yellow,
+black.
 
 
 # imports
@@ -38,7 +42,6 @@ def separateText(text):
             lastSpace = i            
 
     # return the array of words
-    print(words)
     return words
 
 # run main function
